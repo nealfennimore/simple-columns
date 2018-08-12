@@ -1,0 +1,7 @@
+{
+    "name": "simple-columns/hoc",
+    "private": true,
+    "main": "../lib/hoc/index.js",
+    "module": "../es/hoc/index.js",
+    "jsnext:main": "../es/hoc/index.js"
+}
