@@ -12,6 +12,9 @@
         "lcov",
         "text-summary"
     ],
+    "moduleNameMapper": {
+        "\\.(css|pcss)$": "identity-obj-proxy"
+    },
     "roots": [
         "<rootDir>/src"
     ],
