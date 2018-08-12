@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row should match snapshot 1`] = `
+<div
+  className="flex"
+/>
+`;
+
+exports[`Row should match snapshot with children 1`] = `
+<div
+  className="flex"
+>
+  children
+</div>
+`;
+
+exports[`Row should match snapshot with flex parent class names 1`] = `
+<div
+  className="flex flex-direction--row flex-direction--row-reverse flex-direction--column flex-direction--column-reverse flex-wrap--nowrap flex-wrap--wrap flex-wrap--wrap-reverse justify-content--start justify-content--end justify-content--center justify-content--space-between justify-content--space-around justify-content--space-evenly align-items--start align-items--end align-items--center align-items--baseline align-items--stretch align-content--space-start align-content--space-end align-content--space-center align-content--space-between align-content--space-around align-content--space-event align-content--space-stretch"
+/>
+`;
+
+exports[`Row should match snapshot with passthrough attributes 1`] = `
+<div
+  className="flex custom"
+  id="id"
+/>
+`;
